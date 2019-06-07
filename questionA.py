@@ -10,7 +10,7 @@ class LineOverlap():
 		self.x4=0
 
 	def main(self):
-		self.inputName()
+		self.inputCoord()
 
 		if(self.line_verification() == True):
 			self.find_overlap()
