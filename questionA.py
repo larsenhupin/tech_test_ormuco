@@ -15,7 +15,7 @@ class LineOverlap():
 		if(self.line_verification() == True):
 			self.find_overlap()
 
-	def inputName(self):
+	def inputCoord(self):
 		self.x1 = input("\nx1:")
 		self.x2 = input("x2:")
 		self.x3 = input("x3:")
